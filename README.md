@@ -148,4 +148,4 @@ Principe suivi : toutes les opérations lentes ou non déterministes (accès dis
 
 ---
 
-*Auteurs : [Nom 1], [Nom 2] – Binôme n° [X]*
+*Auteurs : GUICHARD Gabriel, NGUYEN Léo – Binôme n°7*
