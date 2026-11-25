@@ -1,2 +1,36 @@
-.vscode/
-*.swp
+# ---- Fichiers produits par ./configure ----
+rtaudio-6.0.1/Makefile
+rtaudio-6.0.1/doc/Makefile
+rtaudio-6.0.1/doc/Doxyfile
+rtaudio-6.0.1/tests/Makefile
+rtaudio-6.0.1/config.log
+rtaudio-6.0.1/config.status
+rtaudio-6.0.1/libtool
+rtaudio-6.0.1/rtaudio.pc
+
+# ---- Fichiers produits par make (objets, bibliotheques, dependances) ----
+*.o
+*.lo
+*.la
+*.lai
+*.a
+*.so
+*.so.*
+.deps/
+.libs/
+
+# ---- Executables des tests (sans extension) ----
+rtaudio-6.0.1/tests/apinames
+rtaudio-6.0.1/tests/audioprobe
+rtaudio-6.0.1/tests/duplex
+rtaudio-6.0.1/tests/playraw
+rtaudio-6.0.1/tests/playsaw
+rtaudio-6.0.1/tests/record
+rtaudio-6.0.1/tests/testall
+rtaudio-6.0.1/tests/teststops
+
+# ---- Doublons produits par l'ancienne version de plot_dump.py ----
+*.bin.wav
+
+# ---- Python ----
+__pycache__/
